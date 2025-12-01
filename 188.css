@@ -1,0 +1,73 @@
+/* Estils generals */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    background: #673ab7;
+    color: white;
+    padding: 2rem 1rem;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Navegació */
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    background: #4527a0;
+    padding: 1rem;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Continguts */
+.container {
+    display: grid;
+    gap: 2rem;
+    padding: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Galeria */
+.galeria-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.galeria-grid img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background: #311b92;
+    color: white;
+    margin-top: 2rem;
+}
